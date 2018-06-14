@@ -15,8 +15,7 @@ class Appointment
   end
 
   def patient
-    patients = @@all.map{|appt| appt.patient}
-    patients
+     @@all.map{|appt| appt.patient}
   end
 
 end
