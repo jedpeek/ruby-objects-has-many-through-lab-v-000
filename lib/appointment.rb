@@ -12,9 +12,4 @@ class Appointment
   def self.all
     @@all
   end
-
-  #def patient
-  #   @@all.map{|appt| appt.patient}
-  #end
-
 end
