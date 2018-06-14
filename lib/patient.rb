@@ -11,4 +11,7 @@ class Patient
     Appointment.all << appt
   end
 
+  def doctors
+  end
+
 end
