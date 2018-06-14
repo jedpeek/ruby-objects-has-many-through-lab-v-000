@@ -1,3 +1,4 @@
+require 'pry'
 class Appointment
   attr_accessor :date, :doctor, :patient
   @@all = []
@@ -10,6 +11,7 @@ class Appointment
 
   def self.all
     @@all.dup.freeze
+    binding.pry
   end
 
   def patient
