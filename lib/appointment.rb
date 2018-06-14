@@ -11,7 +11,6 @@ class Appointment
 
   def self.all
     @@all.dup.freeze
-    binding.pry
   end
 
   def patient
