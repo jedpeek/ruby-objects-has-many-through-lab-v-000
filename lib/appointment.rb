@@ -7,4 +7,7 @@ class Appointment
     @date = date
   end
 
+  def patient
+    
+
 end
